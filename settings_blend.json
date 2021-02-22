@@ -101,7 +101,7 @@
         "rgba(79,236,236,0.07)"
       ],
     "editor.semanticTokenColorCustomizations": {
-        "[One Dark Pro]": { // Apply to this theme only
+        "[One Dark Pro]": {
             "enabled": true,
             "rules": {
                 "magicFunction:python": "#ee0000",
