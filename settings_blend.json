@@ -3,7 +3,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "tabnine.experimentalAutoImports": true,
-    "python.pythonPath": "c:\\users\\user\\appdata\\local\\programs\\python\\python37\\python.exe",
+    "python.pythonPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\python.exe",
     "python.analysis.autoImportCompletions": true,
     "python.analysis.completeFunctionParens": true,
     "python.autoComplete.addBrackets": true,
@@ -23,10 +23,9 @@
     "python.linting.flake8Args": ["--ignore=E24,W504,E201,E202,E226,E231,E302,E501", "--verbose"],
     "python.linting.pylintEnabled": false,
     "python.linting.pydocstyleEnabled": false,
-    //"python.linting.pylintArgs": ["--reports", "12", "--disable", "I0011"],
+    "python.linting.pylintArgs": ["--reports", "12", "--disable", "I0011"],
     "python.linting.enabled": true,
     "python.linting.lintOnSave": true,
-    "workbench.iconTheme": "material-icon-theme",
     "files.autoSave": "onFocusChange",
     "editor.defaultFormatter": "TabNine.tabnine-vscode",
     "sourcery.token": "user__H9qpawoUM5BYpkzbG6_7QpS0OBgRYQS2eFDUKrQPSZks4rwyCCP_hX2F0s",
@@ -35,7 +34,7 @@
         "from arepl_dump import dump",
         "import tkinter as tk",
         "import tkinter.ttk as ttk",
-        "import _support", // TODO this is for page generated GUI
+        "import _support"
     ],
     "python.languageServer": "Pylance",
     "typescript.suggest.paths": false,
@@ -85,6 +84,23 @@
         "bpy-build",
         "bpy"
     ],
+    "code-runner.executorMap": {
+      "javascript": "node",
+      "python": "python -u",
+      "dart": "dart"
+    },
+      "indentRainbow.includedLanguages": ["python"],
+      "indentRainbow.ignoreErrorLanguages" : [
+    "markdown",
+    "haskell"
+  ],
+      "indentRainbow.colors": [
+        "rgba(255,255,64,0.07)",
+        "rgba(127,255,127,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+      ],
+   
     "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
     "sync.autoUpload": true,
     "sync.autoDownload": true,
@@ -111,11 +127,9 @@
     "npm-intellisense.scanDevDependencies": true,
     "path-intellisense.autoSlashAfterDirectory": true,
     "path-intellisense.showHiddenFiles": true,
-    "python.venvPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\venv",
+    "python.venvPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\lib\\venv",
     "python.autoComplete.extraPaths": [
-        "**/site-packages/**",
-    
-    
+        "**/site-packages/**"
     ],
     "python.testing.pytestEnabled": true,
     "code-runner.clearPreviousOutput": true,
@@ -156,13 +170,13 @@
     "blender.executables": [
         {
             "path": "c:\\Program Files\\Blender Foundation\\Blender 2.90\\blender.exe",
-            "name": "",
+            "name": "BL2.9",
             "isDebug": false
         },
         {
             "path": "c:\\Program Files\\Blender Foundation\\Blender\\blender.exe",
-            "name": "",
-            "isDebug": false
+            "name": "BL2.8",
+            "isDebug": true
         }
     ],
     "[python]": {
@@ -180,6 +194,32 @@
     "workbench.preferredHighContrastColorTheme": "Red",
     "workbench.preferredLightColorTheme": "Default Dark+",
     "scm.alwaysShowRepositories": true,
-    "blender.allowModifyExternalPython":true
-    
+    "blender.allowModifyExternalPython": true,
+    "remote.downloadExtensionsLocally": true,
+    "AREPL.pythonPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\python.exe",
+    "blender.addon.reloadOnSave": true,
+    "bracketPairColorizer.consecutivePairColors": [
+
+        "()",
+        "[]",
+        "{}",
+        [
+            "Gold",
+            "Orchid",
+            "LightSkyBlue"
+        ],
+        "Red"
+    ],
+    "git.confirmSync": false,
+    "git.ignoredRepositories": [
+        "templates"
+    ],
+    "autoInstall.secure": false,
+    "autoInstall.startOnLaunch": true,
+    "python.defaultInterpreterPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\python.exe",
+    "autoAlign.enabled": {
+      "csv": true,
+      "bsv": true
+    },
+
 }
