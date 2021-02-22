@@ -3,7 +3,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "tabnine.experimentalAutoImports": true,
-    "python.pythonPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\python.exe",
+    "python.pythonPath": "c:\\program files\\blender foundation\\blender\\2.80\\python\\python.exe",
     "python.analysis.autoImportCompletions": true,
     "python.analysis.completeFunctionParens": true,
     "python.autoComplete.addBrackets": true,
@@ -100,7 +100,18 @@
         "rgba(255,127,255,0.07)",
         "rgba(79,236,236,0.07)"
       ],
-   
+    "editor.semanticTokenColorCustomizations": {
+        "[One Dark Pro]": { // Apply to this theme only
+            "enabled": true,
+            "rules": {
+                "magicFunction:python": "#ee0000",
+                "function.declaration:python": "#990000",
+                "*.decorator:python": "#0000dd",
+                "*.typeHint:python": "#5500aa",
+                "*.typeHintComment:python": "#aaaaaa"
+            }
+        }
+    },
     "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
     "sync.autoUpload": true,
     "sync.autoDownload": true,
@@ -221,5 +232,9 @@
       "csv": true,
       "bsv": true
     },
-
+    "testExplorer.onStart":"reset",
+    "testExplorer.addToEditorContextMenu": true,
+    "testExplorer.onReload": "reset",
+    "testExplorer.showOnRun": true,
+    "testExplorer.sort": "byLabelWithSuitesFirst"
 }
