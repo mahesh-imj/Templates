@@ -3,7 +3,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "tabnine.experimentalAutoImports": true,
-    "python.pythonPath": "c:\\program files\\blender foundation\\blender\\2.80\\python\\python.exe",
+    "python.pythonPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\python.exe",
     "python.analysis.autoImportCompletions": true,
     "python.analysis.completeFunctionParens": true,
     "python.autoComplete.addBrackets": true,
@@ -236,5 +236,6 @@
     "testExplorer.addToEditorContextMenu": true,
     "testExplorer.onReload": "reset",
     "testExplorer.showOnRun": true,
-    "testExplorer.sort": "byLabelWithSuitesFirst"
+    "testExplorer.sort": "byLabelWithSuitesFirst",
+    "livecode.pythonPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\python.exe"
 }
