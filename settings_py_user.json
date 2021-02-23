@@ -35,7 +35,7 @@
         "from arepl_dump import dump",
         "import tkinter as tk",
         "import tkinter.ttk as ttk",
-        "import _support", // TODO this is for page generated GUI
+        "import _support"
     ],
     "python.languageServer": "Pylance",
     "typescript.suggest.paths": false,
@@ -111,9 +111,9 @@
     "npm-intellisense.scanDevDependencies": true,
     "path-intellisense.autoSlashAfterDirectory": true,
     "path-intellisense.showHiddenFiles": true,
-    "python.venvPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\venv",
+    "python.venvPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python37\\Lib\\venv",
     "python.autoComplete.extraPaths": [
-        "**/site-packages/**",
+        "**/site-packages/**"
     
     
     ],
