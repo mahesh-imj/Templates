@@ -3,7 +3,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "tabnine.experimentalAutoImports": true,
-    "python.pythonPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\python.exe",
+    "python.pythonPath": "d:\\softwares\\upbge\\2.93\\python\\python.exe",
     "python.analysis.autoImportCompletions": true,
     "python.analysis.completeFunctionParens": true,
     "python.autoComplete.addBrackets": true,
@@ -23,7 +23,7 @@
     "python.linting.flake8Args": ["--ignore=E24,W504,E201,E202,E226,E231,E302,E501", "--verbose"],
     "python.linting.pylintEnabled": false,
     "python.linting.pydocstyleEnabled": false,
-    "python.linting.pylintArgs": ["--reports", "12", "--disable", "I0011"],
+    //"python.linting.pylintArgs": ["--reports", "12", "--disable", "I0011"],
     "python.linting.enabled": true,
     "python.linting.lintOnSave": true,
     "files.autoSave": "onFocusChange",
@@ -34,7 +34,7 @@
         "from arepl_dump import dump",
         "import tkinter as tk",
         "import tkinter.ttk as ttk",
-        "import _support"
+        "import _support"// TODO this is for page generated GUI
     ],
     "python.languageServer": "Pylance",
     "typescript.suggest.paths": false,
@@ -84,34 +84,6 @@
         "bpy-build",
         "bpy"
     ],
-    "code-runner.executorMap": {
-      "javascript": "node",
-      "python": "python -u",
-      "dart": "dart"
-    },
-      "indentRainbow.includedLanguages": ["python"],
-      "indentRainbow.ignoreErrorLanguages" : [
-    "markdown",
-    "haskell"
-  ],
-      "indentRainbow.colors": [
-        "rgba(255,255,64,0.07)",
-        "rgba(127,255,127,0.07)",
-        "rgba(255,127,255,0.07)",
-        "rgba(79,236,236,0.07)"
-      ],
-    "editor.semanticTokenColorCustomizations": {
-        "[One Dark Pro]": {
-            "enabled": true,
-            "rules": {
-                "magicFunction:python": "#ee0000",
-                "function.declaration:python": "#990000",
-                "*.decorator:python": "#0000dd",
-                "*.typeHint:python": "#5500aa",
-                "*.typeHintComment:python": "#aaaaaa"
-            }
-        }
-    },
     "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
     "sync.autoUpload": true,
     "sync.autoDownload": true,
@@ -138,7 +110,7 @@
     "npm-intellisense.scanDevDependencies": true,
     "path-intellisense.autoSlashAfterDirectory": true,
     "path-intellisense.showHiddenFiles": true,
-    "python.venvPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\lib\\venv",
+    "python.venvPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\venv",
     "python.autoComplete.extraPaths": [
         "**/site-packages/**"
     ],
@@ -180,14 +152,14 @@
     "enableTelemetry": true,
     "blender.executables": [
         {
-            "path": "c:\\Program Files\\Blender Foundation\\Blender 2.90\\blender.exe",
-            "name": "BL2.9",
-            "isDebug": false
-        },
-        {
             "path": "c:\\Program Files\\Blender Foundation\\Blender\\blender.exe",
             "name": "BL2.8",
             "isDebug": true
+        },
+        {
+            "path": "d:\\Softwares\\UPBGE\\blender.exe",
+            "name": "BLUpbge",
+            "isDebug": false
         }
     ],
     "[python]": {
@@ -228,14 +200,16 @@
     "autoInstall.secure": false,
     "autoInstall.startOnLaunch": true,
     "python.defaultInterpreterPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\python.exe",
-    "autoAlign.enabled": {
-      "csv": true,
-      "bsv": true
-    },
-    "testExplorer.onStart":"reset",
-    "testExplorer.addToEditorContextMenu": true,
-    "testExplorer.onReload": "reset",
-    "testExplorer.showOnRun": true,
-    "testExplorer.sort": "byLabelWithSuitesFirst",
-    "livecode.pythonPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\python.exe"
+    "livecode.pythonPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\python.exe",
+    "python.pipenvPath": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\lib\\venv",
+    "python.sortImports.path": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python\\Scripts",
+    "python.envFile": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python",
+    "AREPL.envFile": "C:\\Program Files\\Blender Foundation\\Blender\\2.80\\python",
+    "path-intellisense.extensionOnImport": true,
+    "cmake.cmakePath": "C:\\Program Files\\CMake\\bin",
+    "cmake.configureOnOpen": true,
+    "svn.conflicts.autoResolve": true,
+    "svn.multipleFolders.enabled": true,
+    "svn.path": "C:\\Program Files\\SlikSvn\\bin",
+    "svn.refresh.remoteChanges": true
 }
