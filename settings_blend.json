@@ -23,7 +23,6 @@
     "python.linting.flake8Args": ["--ignore=E24,W504,E201,E202,E226,E231,E302,E501", "--verbose"],
     "python.linting.pylintEnabled": false,
     "python.linting.pydocstyleEnabled": false,
-    //"python.linting.pylintArgs": ["--reports", "12", "--disable", "I0011"],
     "python.linting.enabled": true,
     "python.linting.lintOnSave": true,
     "files.autoSave": "onFocusChange",
@@ -34,7 +33,7 @@
         "from arepl_dump import dump",
         "import tkinter as tk",
         "import tkinter.ttk as ttk",
-        "import _support"// TODO this is for page generated GUI
+        "import _support"
     ],
     "python.languageServer": "Pylance",
     "typescript.suggest.paths": false,
@@ -111,9 +110,6 @@
     "path-intellisense.autoSlashAfterDirectory": true,
     "path-intellisense.showHiddenFiles": true,
     "python.venvPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\venv",
-    "python.autoComplete.extraPaths": [
-        "**/site-packages/**"
-    ],
     "python.testing.pytestEnabled": true,
     "code-runner.clearPreviousOutput": true,
     "code-runner.defaultLanguage": "python",
@@ -211,5 +207,12 @@
     "svn.conflicts.autoResolve": true,
     "svn.multipleFolders.enabled": true,
     "svn.path": "C:\\Program Files\\SlikSvn\\bin",
-    "svn.refresh.remoteChanges": true
+    "svn.refresh.remoteChanges": true,
+    "python.autoComplete.extraPaths": [
+        "**/site-packages/**",
+        "d:/autocomplete/2.80"
+        ],
+        "python.linting.pylintArgs": [
+        "--init-hook",
+        "import sys; sys.path.append('d:/autocomplete/2.80')"
 }
